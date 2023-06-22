@@ -4,3 +4,25 @@ body {
 h1 {
   color: white;
 }
+.prof-pic-thumbnail {
+  max-width: 40px;
+  border-radius: 50%;
+}
+.prof-pic-thumbnail:hover {
+  transform: scale(5) translate(15px, 50%);
+}
+.menu-title {
+  text-decoration: none;
+}
+.menu-title:hover {
+  font-size: 1.5rem;
+}
+.menu-link {
+  text-decoration: none;
+}
+.menu-link:hover {
+  text-decoration: underline;
+}
+.menu-icon:hover {
+  transform: scale(1.5);
+}
