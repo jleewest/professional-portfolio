@@ -1,9 +1,25 @@
+:root {
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+}
 body {
   background-color: black;
 }
-h1 {
+h1,
+h2,
+h3,
+p {
   color: white;
 }
+h1 {
+  font-family: var(--heading-font-family);
+}
+
+h2,
+p {
+  font-family: var(--default-font-family);
+}
+
 .prof-pic-thumbnail {
   max-width: 40px;
   border-radius: 50%;
