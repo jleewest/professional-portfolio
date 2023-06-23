@@ -31,11 +31,11 @@
 }
 .body-container {
   background-color: black;
-  min-height: 1144px;
+  min-height: 1250px;
 }
 .background-image {
   background-color: white;
-  background-image: url(/images/alpine-mountain.jpg);
+  background-image: url(/src/images/alpine-mountain.jpg);
   background-repeat: no-repeat;
   min-height: 1000px;
   background-position: center;
@@ -63,6 +63,7 @@ h3,
 }
 p {
   font-family: var(--default-font-family);
+  font-size: 18px;
 }
 .home-quote {
   padding: 50px;
@@ -76,6 +77,22 @@ p {
 }
 .about-intro {
   font-size: 132px;
+}
+.about-subtitle {
+  font-size: 44px;
+}
+.resume-button {
+  display: block;
+  margin: 45px auto;
+  padding: 16px 22px;
+}
+.resume-link {
+  font-size: 26px;
+  color: white;
+  text-decoration: none;
+}
+.resume-link:hover {
+  transition: all 100ms ease-in-out;
 }
 .about-photo {
   margin: 20px;
@@ -109,6 +126,7 @@ footer {
 .footer-icon {
   padding: 2px;
 }
+
 @media (max-width: 568px) {
   .menu-link,
   .menu-icon {
@@ -122,9 +140,13 @@ footer {
   h1 {
     padding-top: 22px;
   }
-  h2 {
+  h2,
+  .about-subtitle {
     font-size: 20px;
     padding-top: 6px;
+  }
+  p {
+    font-size: 15px;
   }
   .home-quote {
     margin: 40px;
