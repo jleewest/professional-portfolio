@@ -31,7 +31,7 @@
 }
 .body-container {
   background-color: black;
-  min-height: 1000px;
+  min-height: 1144px;
 }
 .background-image {
   background-color: white;
@@ -57,7 +57,8 @@ h2 {
   text-align: center;
   padding-top: 10px;
 }
-h3 {
+h3,
+.about-intro {
   font-family: var(--stylized-font-family);
 }
 p {
@@ -72,6 +73,12 @@ p {
 .home-end-quote {
   text-align: right;
   padding: 20px 0 20px 50px;
+}
+.about-intro {
+  font-size: 132px;
+}
+.about-photo {
+  margin: 20px;
 }
 .contact-block {
   background-color: rgba(0, 0, 0, 0.5);
@@ -108,7 +115,8 @@ footer {
     font-size: 12px;
   }
   h1,
-  .home-quote {
+  .home-quote,
+  .about-intro {
     font-size: 50px;
   }
   h1 {
