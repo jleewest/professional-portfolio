@@ -43,15 +43,22 @@ footer {
 }
 .menu-title:hover {
   font-size: 1.5rem;
+  transition: all 100ms ease-in-out;
 }
 .menu-link {
   text-decoration: none;
 }
-.menu-link:hover {
-  text-decoration: underline;
+.menu-link:hover,
+.active {
+  font-weight: bold;
+  transition: all 100ms ease-in-out;
+}
+.footer-icon {
+  padding: 2px;
 }
 .menu-icon:hover {
   transform: scale(1.5);
+  transition: all 100ms ease-in-out;
 }
 .background-image {
   background-color: white;
@@ -74,6 +81,10 @@ footer {
   background-color: black;
 }
 @media (max-width: 568px) {
+  .menu-link,
+  .menu-icon {
+    font-size: 12px;
+  }
   h1,
   .home-quote {
     font-size: 50px;
@@ -90,5 +101,8 @@ footer {
   }
   .home-end-quote {
     padding-top: 100px;
+  }
+  .footer-icon {
+    padding: 0px;
   }
 }
