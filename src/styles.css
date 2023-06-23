@@ -3,35 +3,6 @@
   --default-font-family: "Poppins", sans-serif;
   --stylized-font-family: "Tangerine", cursive;
 }
-.body-container {
-  background-color: black;
-  min-height: 1000px;
-}
-h1,
-h2,
-h3,
-p {
-  color: white;
-}
-h1 {
-  font-family: var(--heading-font-family);
-  font-size: 96px;
-  text-align: center;
-  padding-top: 86px;
-}
-h2 {
-  font-family: var(--default-font-family);
-  text-align: center;
-  padding-top: 10px;
-}
-h3 {
-  font-family: var(--stylized-font-family);
-}
-footer {
-  background-color: white;
-  text-align: right;
-  padding: 10px 20px;
-}
 .prof-pic-thumbnail {
   max-width: 40px;
   border-radius: 50%;
@@ -54,12 +25,13 @@ footer {
   font-weight: bold;
   transition: all 100ms ease-in-out;
 }
-.footer-icon {
-  padding: 2px;
-}
 .menu-icon:hover {
   transform: scale(1.5);
   transition: all 100ms ease-in-out;
+}
+.body-container {
+  background-color: black;
+  min-height: 1000px;
 }
 .background-image {
   background-color: white;
@@ -67,6 +39,29 @@ footer {
   background-repeat: no-repeat;
   min-height: 1000px;
   background-position: center;
+}
+h1,
+h2,
+h3,
+p {
+  color: white;
+}
+h1 {
+  font-family: var(--heading-font-family);
+  font-size: 96px;
+  text-align: center;
+  padding-top: 86px;
+}
+h2 {
+  font-family: var(--default-font-family);
+  text-align: center;
+  padding-top: 10px;
+}
+h3 {
+  font-family: var(--stylized-font-family);
+}
+p {
+  font-family: var(--default-font-family);
 }
 .home-quote {
   padding: 50px;
@@ -77,6 +72,35 @@ footer {
 .home-end-quote {
   text-align: right;
   padding: 20px 0 20px 50px;
+}
+.contact-block {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 33px 12px;
+  margin: 100px 19px;
+}
+li {
+  list-style: none;
+}
+.contact-icon {
+  padding: 20px;
+  font-size: 26px;
+}
+.contact {
+  color: white;
+  font-family: var(--default-font-family);
+  font-size: 26px;
+  text-decoration: none;
+}
+.contact:hover {
+  text-decoration: underline;
+}
+footer {
+  background-color: white;
+  text-align: right;
+  padding: 10px 20px;
+}
+.footer-icon {
+  padding: 2px;
 }
 @media (max-width: 568px) {
   .menu-link,
@@ -99,6 +123,13 @@ footer {
   }
   .home-end-quote {
     padding-top: 100px;
+  }
+  .contact-icon {
+    font-size: 16px;
+    padding: 10px;
+  }
+  .contact {
+    font-size: 15px;
   }
   .footer-icon {
     padding: 0px;
