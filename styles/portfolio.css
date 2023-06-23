@@ -3,8 +3,9 @@
   --default-font-family: "Poppins", sans-serif;
   --stylized-font-family: "Tangerine", cursive;
 }
-body {
+.body-container {
   background-color: black;
+  min-height: 1000px;
 }
 h1,
 h2,
@@ -76,9 +77,6 @@ footer {
 .home-end-quote {
   text-align: right;
   padding: 20px 0 20px 50px;
-}
-.footer-dark {
-  background-color: black;
 }
 @media (max-width: 568px) {
   .menu-link,
