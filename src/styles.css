@@ -81,17 +81,17 @@ p {
 .about-subtitle {
   font-size: 44px;
 }
-.resume-button {
+.link-button {
   display: block;
   margin: 45px auto;
   padding: 16px 22px;
 }
-.resume-link {
+.primary-link {
   font-size: 26px;
   color: white;
   text-decoration: none;
 }
-.resume-link:hover {
+.primary-link:hover {
   transition: all 100ms ease-in-out;
 }
 .about-photo {
