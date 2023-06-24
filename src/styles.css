@@ -65,22 +65,6 @@ p {
   font-family: var(--default-font-family);
   font-size: 18px;
 }
-.home-quote {
-  padding: 50px;
-  margin: 70px 30px;
-  font-size: 132px;
-  text-align: center;
-}
-.home-end-quote {
-  text-align: right;
-  padding: 20px 0 20px 50px;
-}
-.about-intro {
-  font-size: 132px;
-}
-.about-subtitle {
-  font-size: 44px;
-}
 .link-button {
   display: block;
   margin: 45px auto;
@@ -94,9 +78,40 @@ p {
 .primary-link:hover {
   transition: all 100ms ease-in-out;
 }
+footer {
+  background-color: white;
+  text-align: right;
+  padding: 10px 20px;
+}
+.footer-icon {
+  padding: 2px;
+}
+
+.home-quote {
+  padding: 50px;
+  margin: 70px 30px;
+  font-size: 132px;
+  text-align: center;
+}
+.home-end-quote {
+  text-align: right;
+  padding: 20px 0 20px 50px;
+}
+
+.about-intro {
+  font-size: 132px;
+}
+.about-subtitle {
+  font-size: 44px;
+}
 .about-photo {
   margin: 20px;
 }
+
+.work-content {
+  margin-top: 100px;
+}
+
 .contact-block {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 33px 12px;
@@ -117,14 +132,6 @@ li {
 }
 .contact:hover {
   text-decoration: underline;
-}
-footer {
-  background-color: white;
-  text-align: right;
-  padding: 10px 20px;
-}
-.footer-icon {
-  padding: 2px;
 }
 
 @media (max-width: 568px) {
@@ -147,6 +154,7 @@ footer {
   }
   p {
     font-size: 15px;
+    text-align: center;
   }
   .home-quote {
     margin: 40px;
