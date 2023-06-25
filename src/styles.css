@@ -37,8 +37,16 @@
   background-color: white;
   background-image: url(/src/images/alpine-mountain.jpg);
   background-repeat: no-repeat;
-  min-height: 1000px;
   background-position: center;
+}
+.background-home {
+  min-height: 1000px;
+}
+.background-contact {
+  min-height: 800px;
+}
+.background-work {
+  min-height: 2080px;
 }
 h1,
 h2,
@@ -156,20 +164,29 @@ li {
     font-size: 15px;
     text-align: center;
   }
+  .primary-link {
+    font-size: 20px;
+  }
+  .footer-icon {
+    padding: 0px;
+  }
+
   .home-quote {
     margin: 40px;
   }
   .home-end-quote {
     padding-top: 100px;
   }
+
+  .work-content {
+    margin-top: 40px;
+  }
+
   .contact-icon {
     font-size: 16px;
     padding: 10px;
   }
   .contact {
     font-size: 15px;
-  }
-  .footer-icon {
-    padding: 0px;
   }
 }
