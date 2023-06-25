@@ -29,10 +29,6 @@
   transform: scale(1.5);
   transition: all 100ms ease-in-out;
 }
-.body-container {
-  background-color: black;
-  min-height: 1250px;
-}
 .background-image {
   background-color: white;
   background-image: url(/src/images/alpine-mountain.jpg);
@@ -65,8 +61,7 @@ h2 {
   text-align: center;
   padding-top: 10px;
 }
-h3,
-.about-intro {
+h3 {
   font-family: var(--stylized-font-family);
 }
 p {
@@ -106,11 +101,8 @@ footer {
   padding: 20px 0 20px 50px;
 }
 
-.about-intro {
-  font-size: 132px;
-}
 .about-subtitle {
-  font-size: 44px;
+  font-size: 27px;
 }
 .about-photo {
   margin: 20px;
